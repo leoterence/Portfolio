@@ -1,0 +1,230 @@
+@import 'tailwindcss';
+
+
+
+.Color1{
+    color:#0a8992;
+}
+.Color2{
+    color: #10c0cd;
+}
+.BgC1{
+    background-color: #0a8992;
+}
+.BgC2{
+    background-color: #10c0cd;
+}
+.border1{
+    border:2px solid #0a8992;
+}
+
+.border2{
+    border:2px solid #10c0cd;
+}
+
+/*mise en forme du Headeur*/
+
+
+.T1{
+    text-shadow: 0 0 10px #10c0cd,0 0 20px #10c0cd,0 0 30px #10c0cd;
+}
+
+.navl{
+    transition: transform 0.35s ease;
+}
+.navl:hover{
+    background-color: #10c0cd;
+    transform: scale(1.1);
+}
+
+.navl1{
+    overflow: hidden;
+    position:relative;
+    padding-bottom: 2px;
+}
+
+.navl1::after{
+    content:"";
+    position:absolute;
+    border:1px solid #10c0cd;
+    bottom:0;
+    left: 0;
+    width: 100%;
+    visibility: hidden;
+    transition:visibility 0.1s ease,color 0.1s ease;
+}
+.navl1:hover{
+    color: #10c0cd;
+}
+
+.navl1:hover::after{
+    visibility: visible;
+}
+
+/*mise en forme du Header*/
+
+/*mise en forme du home*/
+
+.linkH:hover{
+    background-color: #10c0cd;
+    color: black;
+    box-shadow: 0 0 10px #10c0cd,0 0 20px #10c0cd;
+    transform: scale(1.1);
+}
+
+.moi1:hover{
+    box-shadow: 0 0 10px #0a8992,0 0 20px #0a8992,0 0 30px #0a8992;
+    transform: scale(1.1);
+
+}
+
+
+
+/*mise en forme du home*/
+
+
+
+/*mise en forme du Parcours*/
+
+.Cercl{
+    box-shadow: 0 0 10px #17d5e3, 0 0 20px #17d5e3, 0 0 25px #17d5e3 ;
+}
+
+.info1{
+    box-shadow: 0 0 15px #17d5e3;
+}
+.info1:hover{
+    box-shadow: 0 0 10px #17d5e3,0 0 15px #17d5e3;
+}
+
+
+/*mise en forme du Parcours*/
+
+/*mise en forme du contact*/
+
+.sub{
+    box-shadow: 0 0 10px #17d5e3,0 0 15px #17d5e3,0 0 20px #17d5e3 ;
+}
+
+
+/*mise en forme du contact*/
+
+
+/*mise en forme du FOOter*/
+.link:hover{
+    background-color:#0a8992 ;
+    box-shadow: 0 0 10px #0a8992,0 0 20px #0a8992,0 0 30px #0a8992;
+
+}
+
+.link:hover #items{
+    color: rgba(255, 255, 255, 0.8);
+}
+
+
+.link1{
+    position:relative;
+    overflow: hidden;
+}
+.link1::after{
+    content: '';
+    position: absolute;
+    border: 1px solid #0a8992;
+    left: 0px;
+    bottom:-2px;
+    width: 40px;
+    visibility: hidden;
+    transition: visibility 0.1s ease;
+
+}
+
+.link1:hover::after{
+    visibility: visible;
+}
+
+
+
+.link2{
+    position:relative;
+    overflow: hidden;
+}
+.link2::after{
+    content: '';
+    position: absolute;
+    border: 1px solid #0a8992;
+    left: 0px;
+    bottom:-2px;
+    width: 50px;
+    height: 1px;
+    visibility: hidden;
+    transition: visibility 0.1s ease;
+}
+
+.link2:hover::after{
+    visibility: visible;
+}
+
+
+
+.link3{
+    position:relative;
+    overflow: hidden;
+}
+.link3::after{
+    content: '';
+    position: absolute;
+    border: 1px solid #0a8992;
+    left: 0px;
+    bottom:-2px;
+    width: 62px;
+    height: 1px;
+    visibility: hidden;
+    transition: visibility 0.1s ease;
+}
+
+.link3:hover::after{
+    visibility:visible;
+}
+
+
+
+.link4{
+    position:relative;
+    overflow: hidden;
+}
+.link4::after{
+    content: '';
+    position: absolute;
+    border: 1px solid #0a8992;
+    left: 0px;
+    bottom:-2px;
+    width: 48px;
+    height: 1px;
+    visibility: hidden;
+    transition: visibility 0.1s ease;
+}
+
+.link4:hover::after{
+    visibility:visible;
+}
+
+.link5{
+    position:relative;
+    overflow: hidden;
+}
+.link5::after{
+    content: '';
+    position: absolute;
+    border: 1px solid #0a8992;
+    left: 0px;
+    bottom:-2px;
+    width: 78px;
+    height: 1px;
+    visibility: hidden;
+    transition: visibility 0.1s ease;
+}
+
+.link5:hover::after{
+    visibility:visible;
+}
+/*mise en forme du bottom*/
