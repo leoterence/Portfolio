@@ -27,8 +27,8 @@ export default function Home() {
       <div className='flex flex-col gap-y-2 justify-center'>
         {/* presentation */}
           <div className='flex flex-col gap-y-1'>
-            <p className='text-3xl font-semibold sm:text-4xl md:text-5xl lg:text-6xl'>Hi,It's <span className='Color2'>Loukou Konan</span></p>
-            <p className='text-xl font-semibold sm:text-2xl md:text-3xl lg:text-4xl'>I'm a <span className='Color2'>{text}</span><span className='Color2'><Cursor /></span></p>
+            <p className='text-3xl font-semibold sm:text-4xl md:text-5xl lg:text-6xl'>Hi,It&apos;s <span className='Color2'>Loukou Konan</span></p>
+            <p className='text-xl font-semibold sm:text-2xl md:text-3xl lg:text-4xl'>I&apos;m a <span className='Color2'>{text}</span><span className='Color2'><Cursor /></span></p>
           </div>
           {/* resumer de ma personne */}
           <div>
