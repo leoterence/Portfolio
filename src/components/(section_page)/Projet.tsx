@@ -21,7 +21,7 @@ export default function Projet() {
               </li>
               <li className=" h-64 border border-white/15 rounded-lg w-52">
                   <Image
-                  src={Images[1]} 
+                  src={Images[2]} 
                   alt="site1"
                   width={100}
                   height={100}
@@ -29,7 +29,7 @@ export default function Projet() {
                   quality={100}
         
                   />
-                <a href="https://site-ntfs.vercel.app/" target="_blank"  rel="nooper noreferrer" className=" border border-white/20 px-2 py-1 rounded block w-20 mx-auto my-2 hover:scale-110">Voir plus</a>
+                <a href="https://slidesite.vercel.app/" target="_blank"  rel="nooper noreferrer" className=" border border-white/20 px-2 py-1 rounded block w-20 mx-auto my-2 hover:scale-110">Voir plus</a>
               </li>
               <li className="hidden sm:block h-64 border border-white/15 rounded-lg w-52">
                   <Image
@@ -45,7 +45,7 @@ export default function Projet() {
               </li>
               <li className=" h-64 border border-white/15 rounded-lg w-52">
                   <Image
-                  src={Images[1]} 
+                  src={Images[2]} 
                   alt="site1"
                   width={100}
                   height={100}
@@ -53,7 +53,7 @@ export default function Projet() {
                   quality={100}
         
                   />
-                <a href="https://site-ntfs.vercel.app/" target="_blank"  rel="nooper noreferrer" className=" border border-white/20 px-2 py-1 rounded block w-20 mx-auto my-2 hover:scale-110">Voir plus</a>
+                <a href="https://slidesite.vercel.app/" target="_blank"  rel="nooper noreferrer" className=" border border-white/20 px-2 py-1 rounded block w-20 mx-auto my-2 hover:scale-110">Voir plus</a>
               </li>
               <li className=" h-64 border border-white/15 rounded-lg w-52">
                   <Image
@@ -69,7 +69,7 @@ export default function Projet() {
               </li>
               <li className="hidden sm:block h-64 border border-white/15 rounded-lg w-52">
                   <Image
-                  src={Images[1]} 
+                  src={Images[2]} 
                   alt="site1"
                   width={100}
                   height={100}
@@ -77,7 +77,7 @@ export default function Projet() {
                   quality={100}
         
                   />
-                <a href="https://site-ntfs.vercel.app/" target="_blank"  rel="nooper noreferrer" className=" border border-white/20 px-2 py-1 rounded block w-20 mx-auto my-2 hover:scale-110">Voir plus</a>
+                <a href="https://slidesite.vercel.app/" target="_blank"  rel="nooper noreferrer" className=" border border-white/20 px-2 py-1 rounded block w-20 mx-auto my-2 hover:scale-110">Voir plus</a>
               </li>
               
           </ul>
